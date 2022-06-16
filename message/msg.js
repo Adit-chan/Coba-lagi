@@ -825,7 +825,7 @@ case prefix+'bc': case prefix+'broadcast':
 		            if (args.length < 2) return reply(`Masukkan isi pesannya`)
                             var data = await store.chats.all()
                             for (let i of data) {
-                               conn.sendMessage(i.id, { text: `*[ JOJO BROADCAST ]*\n\n${q}` })
+                               conn.sendMessage(i.id, { text: `*[ BOT BROADCAST ]*\n\n${q}` })
                                await sleep(1000)
                             }
                             break
