@@ -75,6 +75,10 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
   ≻ ${prefix}katagalau
   ≻ ${prefix}cecan
   ≻ ${prefix}cogan
+  ≻ ${prefix}anime
+  ≻ ${prefix}waifu
+  ≻ ${prefix}husbu
+  ≻ ${prefix}neko
   ≻ ${prefix}naruto
   ≻ ${prefix}loli
   ≻ ${prefix}waifu
