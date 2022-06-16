@@ -1258,7 +1258,7 @@ case prefix+'gantengcek':
 conn.sendMessage(from, { text: `Nama : ${q}\nJawaban : *${teng}%*` }, { quoted: msg })
 limitAdd(sender, limit)
 					break
-case prfix+'anime': case prefix+'waifu': case prefix+'husbu': case prefix+'neko': case prefix+'shinobu': case prefix+'megumin': case prefix+'waifus': case prefix+'nekos': case prefix+'trap': case prefix+'blowjob': {
+case prefix+'anime': case prefix+'waifu': case prefix+'husbu': case prefix+'neko': case prefix+'shinobu': case prefix+'megumin': case prefix+'waifus': case prefix+'nekos': case prefix+'trap': case prefix+'blowjob': {
                 m.reply(mess.wait)
                 conn.sendMessage(m.chat, { image: { url: api('zenz', '/api/random/'+command, {}, 'apikey') }, caption: 'Generate Random ' + command }, { quoted: msg })
             }
