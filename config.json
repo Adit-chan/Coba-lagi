@@ -1,0 +1,13 @@
+{
+  "ownerNumber": ["6289509960601@s.whatsapp.net"],
+  "ownerName": ["Deffri Gans"],
+  "botName": "GansBOTz",
+  "sessionName": "session",
+  "pathimg": "./media/fake.jpg",
+  "gamewaktu": 90,
+  "limitCount": 30,
+  "gcount": {
+	"prem": 100000000000,
+	"user": 30
+  }
+}
