@@ -275,7 +275,7 @@ module.exports = async(conn, msg, m, setting, store) => {
 		const buttonsDefault = [
 			{ urlButton: { displayText: `GROUP OFFICIAL`, url : `https://chat.whatsapp.com/FINXkBRKB9TJePN8S31xZ5` } },
 			{ urlButton: { displayText: `Nomer Owner`, url : `https://wa.me/6289509960601?text=Hai+kak+aku+mau+beli+PREMIUM` } },
-			{ quickReplyButton: { displayText: `INFO BOT 🤖`, id: `${prefix}donate` } },
+			{ quickReplyButton: { displayText: `INFO BOT 🤖`, id: `${prefix}infobot` } },
 			{ quickReplyButton: { displayText: `Script`, id: `${prefix}sc` } },
 		]
 		const button5 = [
@@ -1211,7 +1211,7 @@ Menyukai : ${gai}
 				    limitAdd(sender, limit)
 				    break
 case prefix+'sc':
-  reply("https://github.com/GetSya/JOJO-MD/nRecode By me")
+  reply("https://github.com/GetSya/JOJO-MD\n\nRecode By me")
   break
 case prefix+'apakah':
   if (isLimit(sender, isPremium, isOwner, limitCount, limit)) return reply (`Limit kamu sudah habis silahkan kirim ${prefix}limit untuk mengecek limit`)
